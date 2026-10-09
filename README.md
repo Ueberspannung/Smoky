@@ -15,12 +15,12 @@ Well here it is:
 
 ##### Table of contents
 - [motivation](#motivation)
-- [hardware](#./doc/hw.md#Table-of-contents)
-	- [schematics](#./doc/hw.md#schematics)
-	- [parts](#./doc/hw.md#parts)
-	- [assembly](#./doc/hw.md#assembly)
-- [software](#./doc/sw.md#Table-of-contents)
-- [operation](#./doc/operation.md#Table-of-contents)
+- [hardware](./doc/hw.md#Table-of-contents)
+	- [schematics](./doc/hw.md#schematics)
+	- [parts](./doc/hw.md#parts)
+	- [assembly](./doc/hw.md#assembly)
+- [software](./doc/sw.md#Table-of-contents)
+- [operation](./doc/operation.md#Table-of-contents)
 
 
 ## motivation
