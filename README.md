@@ -34,7 +34,7 @@ I found a hint to use an e-cigarette. This sounded plausible and I decided that 
 searched for e-cigarette, and parts. I found some cheap vape heads and added an usb powerd fish tank air pump.  
 The concept was born  
 To make it operational, I had to ad a PWM control for air flow and steam generation, a UI and a case,
-For details see [hardware](./doc/hw.md#Table-of-contents) and the functional [description](./doc/description.md#Table-of-contents)  
+For details see [hardware](./doc/hw.md#Table-of-contents) and the functional [description](./doc/operation.md#Table-of-contents)  
 
 
 

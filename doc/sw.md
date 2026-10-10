@@ -18,7 +18,7 @@
 		- [icondef](#icondef)
 		- [menudefs](#menudefs)
 		- [menu](#menu)
-- [home](/readme.md#Table-of-contents)
+- [home](../readme.md#Table-of-contents)
 
 ## general
 I used the Arduino IDE to built the SW.  

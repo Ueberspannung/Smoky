@@ -64,11 +64,11 @@
 				- [battery info](#battery-info)
 			- [reset menu](#reset-menu)
 		- [info menu](#info-menu)
-- [home](/readme.md#Table-of-contents)
+- [home](../readme.md#Table-of-contents)
 
 ## principle of operation
-The smoke machine has four states of operation as shown in th diagram:
-[![states of operation](./img/thumb/parts/640/control.png)](./img/src/parts/640/control.svg)
+The smoke machine has four states of operation as shown in th diagram:  
+![states of operation](./img/src/parts/control.svg)]
 1. start delay  
 when activated, the PWM idles for the desired period 
 1. start phase  
@@ -106,8 +106,10 @@ system information or the input voltage
 The mode icon is used to acces the parameters for the intervall operation.  
 ### Heat
 [![iconHeat](./img/thumb/icon/iconHeat.png)](./img/Src/icon/iconHeat.png)  
+The heat icon is used to access the menus and parameters for vaporizer controll.
 ### Air
 [![iconAir](./img/thumb/icon/iconAir.png)](./img/Src/icon/iconAir.png)  
+The heat icon is used to access the menus and parameters for air pump controll.
 ### Battery
 [![iconBattery](./img/thumb/icon/iconBattery.png)](./img/Src/icon/iconBattery.png)  
 ### DutyCycle
@@ -175,30 +177,30 @@ an executable fuction
 ### main menu
 [![main menu](./img/thumb/menu/Menu_1_0________main.png)](./img/src/menu/Menu_1_0________main.png)  
 From the top level menu the smoke menu, the settings menu and the system information menu can be accessed:
-- smoke menu
+- smoke menu  
 [![smoke menu](./img/thumb/menu/Menu_1_1________main-smoke.png)](./img/src/menu/Menu_1_1________main-smoke.png)  
-- settings menu
+- settings menu  
 [![settings menu](./img/thumb/menu/Menu_1_2________main-settings.png)](./img/src/menu/Menu_1_2________main-settings.png)  
-- system info
+- system info  
 [![info menu](./img/thumb/menu/Menu_1_3________main-info.png)](./img/src/menu/Menu_1_3________main-info.png)  
 
 ### smoke menu
 when entering the smoke menue the smoke function can be activated or deactivated by pressing the center button. 
 If the button is held down the smoke function is active as long as the button is pressed  
-[![smoke menu inactive](./img/thumb/menu/Menu_1_1_0______main-smoke-inactive.png)](./img/src/menu/Menu_1_1________main-smoke.png) 
+[![smoke menu inactive](./img/thumb/menu/Menu_1_1_0______main-smoke-inactive.png)](./img/src/menu/Menu_1_1________main-smoke.png)  
 Active smoke is indicated by a moving cloud  
 [![smoke menu active](./img/thumb/menu/Menu_1_1_1______main-smoke-active.png)](./img/src/menu/Menu_1_1________main-smoke.png)  
 
 ### settings menu
 [![settings menu](./img/thumb/menu/Menu_1_2_0______main-settings-menu.png)](./img/src/menu/Menu_1_2_0______main-settings-menu.png)  
 from the settings menu all parmeter menus can be accessed  
-- mode menu
+- mode menu  
 [![settings cycle](./img/thumb/menu/Menu_1_2_1______main-settings-cycle.png)](./img/src/menu/Menu_1_2_1______main-settings-cycle.png)  
-- heat menu
+- heat menu  
 [![settings heat](./img/thumb/menu/Menu_1_2_2______main-settings-heat.png)](./img/src/menu/Menu_1_2_2______main-settings-heat.png)  
-- air menu
+- air menu  
 [![settings air](./img/thumb/menu/Menu_1_2_3______main-settings-air.png)](./img/src/menu/Menu_1_2_3______main-settings-air.png)  
-- battery menu 
+- battery menu  
 [![settings battery](./img/thumb/menu/Menu_1_2_4______main-settings-battery.png)](./img/src/menu/Menu_1_2_4______main-settings-battery.png)  
 
 

@@ -9,7 +9,7 @@
 - [assembly](#assembly)
 - [software](./sw.md#Table-of-contents)
 - [description](./description.md#Table-of-contents)
-- [home](/readme.md#Table-of-contents)
+- [home](../readme.md#Table-of-contents)
 
 ## schematics
 ![schematics](./img/src/parts/schematic.svg)  
@@ -43,14 +43,14 @@ rechargeble battery is use to its discharge voltage to protect the battery.
 ## parts
 ### elcetric parts
 - arduino nano  
-[![arduino nano](./img/thumb/parts/320/nano.png)](./img/src/parts/nano.png)  
+[![arduino nano](./img/thumb/parts/320/Nano.png)](./img/src/parts/Nano.png)  
 I found that some cheap clones can not be programmed via USB. Althoug I reprogrammed 
 fuses and bootloader I was not able to upload the SW with the arduino IDE. Programming 
 through the ISP Interface works fine, even the serial port works works as intended.  
 - DCDC converter  
 [![MP1584](./img/thumb/parts/320/DCDC_MP1584.png)](./img/src/parts/DCDC_MP1584.png)  
 Although this module has two inputs and two outputs this is not an isolated converter
-- MOSFet Module
+- MOSFet Module  
 [![MOSFet with screw terminals](./img/thumb/parts/320/DualFET_1.png)](./img/src/parts/DualFET_1.png) 
 [![MOSFet with screw terminals](./img/thumb/parts/320/DualFET_3.png)](./img/src/parts/DualFET_3.png) 
 [![MOSFet with screw terminals](./img/thumb/parts/320/DualFET_2.png)](./img/src/parts/DualFET_2.png)  
@@ -60,35 +60,36 @@ So I had screw terminals for power input as well as PWM output to the air pump a
 [![digtal joystick](./img/thumb/parts/320/Switch_5way_navigation.png)](./img/src/parts/Switch_5way_navigation.png)  
 - Display  
 [![display](./img/thumb/parts/320/SSD1306_128x32.png)](./img/src/parts/SSD1396_128x32.png)  
-- Power rail
+- Power rail  
 [![display](./img/thumb/parts/320/Power_Rail_5V.png)](./img/src/parts/Power_Rail_5V.png)  
 The input power is connected through thick wire on the underside of the DCD and MOSFet modules. 
 The 5V Supply is distributed by a strip of perforated circuit board.
 - vaporizer  
-[![vaporizer](./img/thumb/parts/320/Vape_wo_leads.png)](./img/src/parts/Vape_connector.png) 
+[![vaporizer](./img/thumb/parts/320/Vape_wo_leads.png)](./img/src/parts/Vape_connector.png)  
 [![vaporizer terminal](./img/thumb/parts/320/Vape_connector.png)](./img/src/parts/Vape_connector.png)  
 This is colled a CE4 - 510 vaporizer. The heating resistor is connected between the outer metal ring 
 and the inner pipe. In order to put air through it I connected a 4mm brass tube to the inner pipe and 
-soldered a wire to the outer ring.
+soldered a wire to the outer ring.  
 [![vaporizer connected](./img/thumb/parts/320/Vape_with_leads.png)](./img/src/parts/Vape_with_leads.png)  
-- air pump
+- air pump  
 [![vaporizer connected](./img/thumb/parts/320/USB_powered_air_pump_w_case.png)](./img/src/parts/USB_powered_air_pump_w_case.png)  
 This is the air pump., For better handling I removed the cover..  
 [![vaporizer connected](./img/thumb/parts/320/USB_powered_air_pump_wo_case.png)](./img/src/parts/USB_powered_air_pump_wo_case.png)  
-- big inductor for vaporizer
+- big inductor for vaporizer  
 [![L1](./img/thumb/parts/320/Inductor_WE7447019_700uH.png)](./img/src/parts/Inductor_WE7447019_700uH.png)  
-- small inductor for air pump
+- small inductor for air pump  
 [![L1](./img/thumb/parts/320/Inductor_Fastron_09HVP_1mH.png)](./img/src/parts/Inductor_Fastron_09HVP_1mH.png)  
 ### mechanical parts
 I desgned some 3D printed case parts. I will not provide 3D files as most likely one will not find exactly 
 same parts as I had on hand.
-- lower shell
+- lower shell  
 [![vaporizer connected](./img/thumb/parts/320/Smoky_lower_shell.png)](./img/src/parts/Smoky_lower_shell.png)  
 The lower shell is designed to hold the air pump, vaporizer and inductors and power module carrier.  
-- upper shell
+- upper shell  
 [![vaporizer connected](./img/thumb/parts/320/Smoky_upper_shell.png)](./img/src/parts/Smoky_upper_shell.png)  
-The upper shell is designed to hold the Nano, display, joystick and DC Jack
-- brackets and mountig parts
+The upper shell is designed to hold the Nano, display, joystick and DC Jack. Although not shown I added some 
+venting holes in the bottom (left side).
+- brackets and mountig parts  
 [![vaporizer connected](./img/thumb/parts/320/Smoky_brackets.png)](./img/src/parts/Smoky_brackets.png)  
 These are 
 	- the mounting brackets for the motor, vaporizer and inductor. 
@@ -98,14 +99,14 @@ These are
 ## assembly  
 The elctronics are connected with the help of some 3D printed templates (not shown).  
 [![electronic assembly](./img/thumb/assembly/320/electronic_assembly.png)](./img/src/assembly/electronic_assembly.png)  
-Then the control electronics is mounted to the upper shell and the power electronics 
+Then the control electronics is mounted to the upper shell and the power electronics  
 is mounted to the carrier.  
 [![upper shell](./img/thumb/assembly/320/Smoky_upper_shell_assembly_1.png)](./img/src/assembly/Smoky_upper_shell_assembly_1.png)  
-The air pump and the vaporizer are connected by a small silicone tube 
+The air pump and the vaporizer are connected by a small silicone tube  
 [![lower shell 1](./img/thumb/assembly/320/Smoky_lower_shell_assembly_1.png)](./img/src/assembly/Smoky_upper_shell_assembly_1.png)  
-The silicone tube is fed through the big inductor
+The silicone tube is fed through the big inductor  
 [![lower shell 2](./img/thumb/assembly/320/Smoky_lower_shell_assembly_2.png)](./img/src/assembly/Smoky_upper_shell_assembly_1.png)  
-All three parts are kept in place with their brackets.
+All three parts are kept in place with their brackets.  
 [![lower shell 3](./img/thumb/assembly/320/Smoky_lower_shell_assembly_3.png)](./img/src/assembly/Smoky_upper_shell_assembly_1.png)  
 I designed a recess for the motor's. The components are kept in place by the solder joints.  
 [![lower shell 4](./img/thumb/assembly/320/motor_assembly.png)](./img/src/assembly/Smoky_upper_shell_assembly_1.png)  
