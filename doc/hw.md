@@ -9,7 +9,7 @@
 - [assembly](#assembly)
 - [software](./sw.md#Table-of-contents)
 - [description](./description.md#Table-of-contents)
-- [home](../readme.md#Table-of-contents)
+- [home](../README.md#Table-of-contents)
 
 ## schematics
 ![schematics](./img/src/parts/schematic.svg)  

@@ -64,7 +64,7 @@
 				- [battery info](#battery-info)
 			- [reset menu](#reset-menu)
 		- [info menu](#info-menu)
-- [home](../readme.md#Table-of-contents)
+- [home](../README.md#Table-of-contents)
 
 ## principle of operation
 The smoke machine has four states of operation as shown in th diagram:  
