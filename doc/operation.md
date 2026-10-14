@@ -2,6 +2,7 @@
 
 
 ##### Table of contents
+- [smoke liquid](#smoke-liquid)
 - [principle of operation](#principle-of-operation)
 - [menu icons](#menu-icons)
 	- [Menu](#Menu)
@@ -65,6 +66,23 @@
 			- [reset menu](#reset-menu)
 		- [info menu](#info-menu)
 - [home](../README.md#Table-of-contents)
+
+## smoke liquid
+I used a mixture equal to base liquid for e-cigararettes.  
+> [!TIP]  
+> Do not use base liquids from the e-cigarratte store. These have heavy taxes on them  
+
+A typical base liquid for e-cigaretts contains 50 % glycerine (IUPAC: propane-1,2,3-triol) 
+and 50 % of propylene glycol (IUPAC: propane-1,2-diol). These chemical can be obtaine from 
+your local pharmacy or shops for DIY - cosmetics.  
+> [!WARNING]  
+> be shure to use food / medical grade chemicals such as for cosmetics. Chemicals for technical use may contain toxic impurituies which you do not want to inhale.  
+
+Increasing the amount of glycerine increases the density of the steam.  
+I don't know how good professionel fog liquids work because stage grade fog machines 
+use higher temperatures. The basic mixture is almost the same: demineralized water and polyhydric 
+alcohols. E.g. propylene glycol, triethylene glycol (IUPAC:2-[2-(2-hydroxyethoxy)ethoxy]ethanol) 
+and water.  
 
 ## principle of operation
 The smoke machine has four states of operation as shown in th diagram:  

@@ -1,7 +1,7 @@
 # Smoky
 small hand-held smoke machine
 
-Did you ever needed a small smoke machine for testing air flow in an computer case or around heat sinks?  
+Did you ever needed a small smoke machine for testing air flow in a computer case or around heat sinks?  
 Well here it is:
 
 ## the smoke machine to go
@@ -13,6 +13,14 @@ Well here it is:
 - operating voltage 8-24V
 - input voltage low detection
 
+
+I tried it on smoke detectors: I works!  
+> [!WARNING]  
+> As the smoke is rather fog than smoke it consists of vaporized liquids which 
+> may cause a residue in your smoke detector. Make shure to blow out the smoke 
+> with compressed air after the test.  
+
+
 ##### Table of contents
 - [motivation](#motivation)
 - [hardware](./doc/hw.md#Table-of-contents)
@@ -21,6 +29,10 @@ Well here it is:
 	- [assembly](./doc/hw.md#assembly)
 - [software](./doc/sw.md#Table-of-contents)
 - [operation](./doc/operation.md#Table-of-contents)
+	- [smoke liquid](./doc/operation.md#smoke-liquid)
+	- [principle of operation](./doc/operation.md#principle-of-operation)
+	- [menu icons](./doc/operation.md#menu-icons)
+	- [menu structure](./doc/operation.md#menu-structure)
 
 
 ## motivation
